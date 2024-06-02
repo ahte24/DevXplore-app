@@ -133,21 +133,21 @@ export default function Home() {
 		},
 		{
 			quote:
-				"We have seen a significant increase in traffic and engagement since DigitX revamped our site. Their team's expertise is unmatched.",
+				"We have seen a significant increase in traffic and engagement since DigitX revamped our site. Their teams expertise is unmatched.",
 			name: "John Smith",
 			title: "Marketing Director at SalesCorp",
 			image: profile,
 		},
 		{
 			quote:
-				"We have seen a significant increase in traffic and engagement since DigitX revamped our site. Their team's expertise is unmatched.",
+				"We have seen a significant increase in traffic and engagement since DigitX revamped our site. Their teams expertise is unmatched.",
 			name: "John Smith",
 			title: "Marketing Director at SalesCorp",
 			image: profile,
 		},
 		{
 			quote:
-				"We have seen a significant increase in traffic and engagement since DigitX revamped our site. Their team's expertise is unmatched.",
+				"We have seen a significant increase in traffic and engagement since DigitX revamped our site. Their teams expertise is unmatched.",
 			name: "John Smith",
 			title: "Marketing Director at SalesCorp",
 			image: profile,
@@ -1516,7 +1516,7 @@ export default function Home() {
 						<p className="text-[#507C7C] text-[16px] text-center">
 							Dive into a collection of testimonials that speak to the impact of
 							Novus. Our clients share their journey, highlighting the
-							excellence, reliability, and transformative experiences they've
+							excellence, reliability, and transformative experiences theyve
 							encountered working with us.
 						</p>
 					</div>

@@ -4,21 +4,20 @@ import React from "react";
 import Logo from "@/public/Logo.svg";
 import Image from "next/image";
 import { useState } from "react";
-
 const Navbar = () => {
 	const [isChecked, setIsChecked] = useState(false);
-
+	const [opened, setOpened] = useState(false);
 	const handleCheckboxChange = () => {
 		setIsChecked(!isChecked);
 	};
 
 	return (
 		<>
-			<nav className="h-[90px] w-full  flex justify-between items-center px-16 absolute ">
+			<nav className="h-[90px] w-full  flex justify-between items-center px-16 absolute z-30">
 				<Link href={"/"}>
 					<Image src={Logo} alt="hello world" />
 				</Link>
-				<div className="maxw-[500px] h-[60px] px-2 flex justify-center items-center bg-[#001719] border border-[#00393d] rounded-full">
+				<div className="max-w-[500px] h-[60px] px-2 lg:flex justify-center items-center bg-[#001719] border border-[#00393d] rounded-full hidden">
 					<ul className="flex justify-evenly w-[490px] items-center transition-all">
 						<div className="w-[100px] flex justify-center items-center">
 							<Link
@@ -70,7 +69,7 @@ const Navbar = () => {
 						</div>
 					</ul>
 				</div>
-				<div>
+				<div className="">
 					<label className="themeSwitcherTwo relative inline-flex cursor-pointer select-none items-center">
 						<input
 							type="checkbox"
@@ -92,6 +91,7 @@ const Navbar = () => {
 						</span>
 					</label>
 				</div>
+				
 			</nav>
 		</>
 	);

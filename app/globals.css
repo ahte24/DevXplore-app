@@ -17,3 +17,10 @@
 .servicesBg{
     background-image: url("../public/services.svg");
 }
+
+.showCaseBg{
+    background-image: url("../public/showCaseBG.svg");
+}
+.showCaseBg3{
+    background-image: url("../public/3BG.svg");
+}
